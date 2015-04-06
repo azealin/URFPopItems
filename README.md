@@ -9,3 +9,23 @@ splashes with their favorite URF items and people can go to a simple front end w
 This may mean that I would need a higher rate to pull games depending on how many total games there are.
 
 Pulls are being done in python, front end html/css/js
+
+
+TODO:
+write python script to read db, db is urfchampitems.db, 
+#make connections to database
+con = lite.connect('urfchampitems.db')
+
+with con:
+    print("found database")
+    cur = con.cursor()
+	cur.execute("SQL STATEMENT HERE")
+
+also need 
+https://na.api.pvp.net/api/lol/na/
+v1.2/champion/{id}
+
+for the two calls
+
+https://na.api.pvp.net/api/lol/na/
+v1.2/item/{id}

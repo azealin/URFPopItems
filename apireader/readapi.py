@@ -13,7 +13,7 @@ with con:
     #cur.execute("CREATE TABLE Champs(champid INT, ranking TEXT, winner TEXT, "
     #           "item0 INT,item1 INT,item2 INT,item3 INT,item4 INT,item5 INT,item6 INT )")
 #CONNECT TO BUCKET #1428099300 1428270000
-epocht = 1428297300
+epocht = 1428334800
 while epocht < 1428335072:
     print(epocht)
     beginapi = {'beginDate': epocht, 'api_key': "c73fb9af-146f-47fa-ac4f-c2b0f43ac35e"}
