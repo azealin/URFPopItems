@@ -13,8 +13,8 @@ with con:
     #cur.execute("CREATE TABLE Champs(champid INT, ranking TEXT, winner TEXT, "
     #           "item0 INT,item1 INT,item2 INT,item3 INT,item4 INT,item5 INT,item6 INT )")
 #CONNECT TO BUCKET #1428099300 1428270000
-epocht = 1428334800
-while epocht < 1428335072:
+epocht = 1428445500
+while epocht < 1428506555:
     print(epocht)
     beginapi = {'beginDate': epocht, 'api_key': "c73fb9af-146f-47fa-ac4f-c2b0f43ac35e"}
     r = requests.get('https://na.api.pvp.net/api/lol/na/v4.1/game/ids', params=beginapi)
