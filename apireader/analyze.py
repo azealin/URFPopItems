@@ -40,12 +40,12 @@ def thing(champID):
     return c.most_common(7)
 
 def translate(array):
+    #
+    # for item in array:
+    #     print item,
+    #     print lookup.get_item(item(0))
 
-    for item in array:
-        print item,
-        print lookup.get_item(item(0))
-
-    return [lookup.get_item(item(0)) for item in array]
+    return [lookup.get_item(item[0]) for item in array]
 
 
 def generatetable():
