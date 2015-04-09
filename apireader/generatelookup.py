@@ -40,7 +40,7 @@ def test(n1, n2):
 
 
 def pack(thing, name):
-    pickle.dump(thing, open(name))
+    pickle.dump(thing, open(name, 'w'))
 
 
 def unpack(name):
@@ -85,7 +85,7 @@ def maketable():
 
         # except:
         #     print "Error: unable to fetch data"
-    print "made table"
+    #print "made table"
     return champlist
 
 

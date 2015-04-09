@@ -12,7 +12,7 @@ def thing(champID):
     c = Counter()
 
     with con:
-        print("found database")
+        #print("found database")
         cur = con.cursor()
 
         sql = "SELECT item0, item1, item2, item3, item4, item5, item6  FROM champs WHERE champid = '%d' LIMIT 100" %champID
@@ -37,7 +37,7 @@ def thing(champID):
     # keep frequency of items
 
     # return list of most frequent items
-    return c.most_common(7)
+    return c.most_common(8)
 
 def translate(array):
     #
@@ -53,11 +53,11 @@ def generatetable():
     champlist = lookup.maketable()
     #print champlist[62]
     for key, value in champlist.items():
-        print value
+        #print value
         champdict[value]= translate(thing(key))
-        print "name", value, "items", champdict[value]
+        print value, "\t", champdict[value]
 
-#    lookup.pack(champdict, "champdict.api")
+    lookup.pack(champdict, "champdict.api")
 
 
 ####### MAIN
