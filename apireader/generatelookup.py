@@ -35,8 +35,8 @@ def get_item(number):
 
 
 def test(n1, n2):
-    print "Trying to get champion",n1,":", get_champ(n1)
-    print "Trying to get item", n2, ":", get_item(n2)
+    print("Trying to get champion", n1, ":", get_champ(n1))
+    print("Trying to get item", n2, ":", get_item(n2))
 
 
 def pack(thing, name):

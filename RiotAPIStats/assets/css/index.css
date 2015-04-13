@@ -1,6 +1,8 @@
 body {
     padding-top: 20px;
     padding-bottom: 40px;
+    background-image: url("../img/tiny_grid/tiny_grid.png");
+    font-family: 'Orbitron' !important;
 }
 
 /* Custom container */
@@ -32,4 +34,9 @@ body {
 }
 .marketing p + h4 {
     margin-top: 28px;
+}
+
+.champ{
+    cursor: pointer;
+    cursor: hand;
 }
