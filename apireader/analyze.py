@@ -4,6 +4,7 @@ import generatelookup as lookup
 from collections import Counter
 
 con = lite.connect('urfchampitems.db')
+totals = Counter()
 champdict1 = {}
 champdict2 = {}
 champdict3 = {}
@@ -106,6 +107,7 @@ def thing(champID):
 
 
 def champranking(rank):
+    global totals
     freq = Counter()
     print rank
 
@@ -131,6 +133,7 @@ def champranking(rank):
                 champ = champdict[row[0]]
                 #print champ
                 freq[champ] += 1
+                totals[champ] += 1
             except KeyError:
                 continue
 
@@ -198,4 +201,6 @@ champranks = [champranking(r) for r in ranks]
 
 for r in champranks:
     print r
+
+print totals.most_common()
 
