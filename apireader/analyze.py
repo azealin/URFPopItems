@@ -105,6 +105,40 @@ def thing(champID):
             c6.most_common(10), c7.most_common(10)]
 
 
+def champranking(rank):
+    freq = Counter()
+    print rank
+
+    with con:
+        #print("found database")
+        cur = con.cursor()
+
+        if isinstance(rank, tuple):
+            #print %s, '\%s' %(rank[0] %rank[1])
+            sql = "SELECT champid  FROM champs WHERE ranking in ( '%s', '%s')"\
+            %(rank[0], rank[1])
+        else:
+            # print "pass"
+            sql = "SELECT champid  FROM champs WHERE ranking = '%s' " \
+              % rank
+
+        cur.execute(sql)
+        results = cur.fetchall()
+        #print len(results)
+        for row in results:
+            try:
+                #print row,
+                champ = champdict[row[0]]
+                #print champ
+                freq[champ] += 1
+            except KeyError:
+                continue
+
+        return freq.most_common()
+
+
+
+
 def translate(array):
     #
     # for item in array:
@@ -148,9 +182,20 @@ def generatetable():
 
 
 ####### MAIN
-generatetable()
+# generatetable()
+#
+# print("Unranked: " + str(totalgames1) + " Bronze: " + str(totalgames2) + " Silver: " + str(totalgames3) +
+#         " Gold: " + str(totalgames4) + " Platinum: " + str(totalgames5) + " Diamond: " + str(totalgames6) +
+#         " Master/Challenger: " + str(totalgames7))
+# print("Total Games " + str((totalgames1+totalgames2+totalgames3+totalgames4+totalgames5+totalgames6+totalgames7)/10))
+print "making table"
+champdict = lookup.maketable()
+print "done"
 
-print("Unranked: " + str(totalgames1) + " Bronze: " + str(totalgames2) + " Silver: " + str(totalgames3) +
-        " Gold: " + str(totalgames4) + " Platinum: " + str(totalgames5) + " Diamond: " + str(totalgames6) +
-        " Master/Challenger: " + str(totalgames7))
-print("Total Games " + str((totalgames1+totalgames2+totalgames3+totalgames4+totalgames5+totalgames6+totalgames7)/10))
+ranks  = ["UNRANKED", "BRONZE", "SILVER", "GOLD", "PLATINUM", "DIAMOND", ("MASTER", "CHALLENGER")]
+
+champranks = [champranking(r) for r in ranks]
+
+for r in champranks:
+    print r
+
