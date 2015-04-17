@@ -109,7 +109,7 @@ def thing(champID):
 def champranking(rank):
     global totals
     freq = Counter()
-    print rank
+    print (rank)
 
     with con:
         #print("found database")
@@ -191,16 +191,16 @@ def generatetable():
 #         " Gold: " + str(totalgames4) + " Platinum: " + str(totalgames5) + " Diamond: " + str(totalgames6) +
 #         " Master/Challenger: " + str(totalgames7))
 # print("Total Games " + str((totalgames1+totalgames2+totalgames3+totalgames4+totalgames5+totalgames6+totalgames7)/10))
-print "making table"
+print ("making table")
 champdict = lookup.maketable()
-print "done"
+print ("done")
 
 ranks  = ["UNRANKED", "BRONZE", "SILVER", "GOLD", "PLATINUM", "DIAMOND", ("MASTER", "CHALLENGER")]
 
 champranks = [champranking(r) for r in ranks]
 
 for r in champranks:
-    print r
+    print (r)
 
-print totals.most_common()
+print (totals.most_common())
 
