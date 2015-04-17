@@ -13,3 +13,8 @@ Pulls are being done in python, front end html/css/js
 To access site:
 
 URFTeemo\RiotAPIStats\pages\index.html
+
+To access program:
+run:
+
+URFTeemo\apireader\analyze.py

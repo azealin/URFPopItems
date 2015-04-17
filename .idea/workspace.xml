@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="330e5d32-3301-4e65-9cde-40d1705b8e9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RiotAPIStats/pages/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apireader/analyze.py" afterPath="$PROJECT_DIR$/apireader/analyze.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RiotAPIStats/pages/displayinfo.html" afterPath="$PROJECT_DIR$/RiotAPIStats/pages/displayinfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RiotAPIStats/pages/index.html" afterPath="$PROJECT_DIR$/RiotAPIStats/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RiotAPIStats/assets/js/loadChamp.js" afterPath="$PROJECT_DIR$/RiotAPIStats/assets/js/loadChamp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="URFTeemo.iws" />
@@ -21,7 +16,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/URFTeemo$analyze.coverage" NAME="analyze Coverage Results" MODIFIED="1429233700470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apireader" />
+    <SUITE FILE_PATH="coverage/URFTeemo$analyze.coverage" NAME="analyze Coverage Results" MODIFIED="1429306961271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apireader" />
     <SUITE FILE_PATH="coverage/URFTeemo$Unittests_in_setup.coverage" NAME="Unittests in setup Coverage Results" MODIFIED="1428092609606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests-master" />
     <SUITE FILE_PATH="coverage/URFTeemo$generatelookup.coverage" NAME="generatelookup Coverage Results" MODIFIED="1428858924153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apireader" />
     <SUITE FILE_PATH="coverage/URFTeemo$readapi.coverage" NAME="readapi Coverage Results" MODIFIED="1428937785348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apireader" />
@@ -79,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="analyze.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="analyze.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apireader/analyze.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604">
+            <state vertical-scroll-proportion="-3.9535713" vertical-offset="2690" max-vertical-offset="3604">
               <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -97,7 +92,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RiotAPIStats/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.884615" vertical-offset="245" max-vertical-offset="11373">
+            <state vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="11373">
               <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding />
             </state>
@@ -107,17 +102,17 @@
       <file leaf-file-name="displayinfo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RiotAPIStats/pages/displayinfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.192307" vertical-offset="671" max-vertical-offset="1445">
+            <state vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1445">
               <caret line="52" column="118" selection-start-line="52" selection-start-column="118" selection-end-line="52" selection-end-column="118" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RiotAPIStats/pages/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24952015" vertical-offset="686" max-vertical-offset="1836">
+            <state vertical-scroll-proportion="-5.0" vertical-offset="686" max-vertical-offset="1836">
               <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
               <folding />
             </state>
@@ -127,7 +122,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RiotAPIStats/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
               <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
@@ -139,7 +134,7 @@
       <file leaf-file-name="loadChamp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RiotAPIStats/assets/js/loadChamp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+            <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="765">
               <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
@@ -712,6 +707,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apireader/generatelookup.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1768">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <marker date="1428861878178" expanded="true" signature="1273:1293" placeholder="SELECT * FRO..champs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apireader/analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="3604">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1429233698418" expanded="true" signature="917:1014" placeholder="SELECT ranki..champs..." />
+            <marker date="1429233698418" expanded="true" signature="3859:3917" placeholder="SELECT champ..champs..." />
+            <marker date="1429233698418" expanded="true" signature="4012:4060" placeholder="SELECT champ..champs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiotAPIStats/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="11373">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiotAPIStats/pages/displayinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1445">
+          <caret line="52" column="118" selection-start-line="52" selection-start-column="118" selection-end-line="52" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiotAPIStats/pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiotAPIStats/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RiotAPIStats/assets/js/loadChamp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="765">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+            <marker date="1429237029727" expanded="true" signature="984:1007" placeholder="..." />
+            <marker date="1429237029727" expanded="true" signature="984:1046" placeholder="..." />
+            <marker date="1429237029727" expanded="true" signature="984:1057" placeholder="..." />
+            <marker date="1429237029727" expanded="true" signature="984:1089" placeholder="..." />
+            <marker date="1429237029727" expanded="true" signature="984:1091" placeholder="..." />
+            <marker date="1429237029727" expanded="true" signature="984:1092" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apireader/readapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1173">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <marker date="1428937785343" expanded="true" signature="1943:2255" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apireader/generatelookup.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1768">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
@@ -847,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93950176" vertical-offset="152" max-vertical-offset="799">
           <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,19 +946,6 @@
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <marker date="1428861878178" expanded="true" signature="1273:1293" placeholder="SELECT * FRO..champs..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apireader/analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1429233698418" expanded="true" signature="917:1014" placeholder="SELECT ranki..champs..." />
-            <marker date="1429233698418" expanded="true" signature="3859:3917" placeholder="SELECT champ..champs..." />
-            <marker date="1429233698418" expanded="true" signature="4012:4060" placeholder="SELECT champ..champs..." />
           </folding>
         </state>
       </provider>
@@ -913,7 +978,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RiotAPIStats/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.884615" vertical-offset="245" max-vertical-offset="11373">
+        <state vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="11373">
           <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
           <folding />
         </state>
@@ -921,7 +986,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RiotAPIStats/pages/displayinfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.192307" vertical-offset="671" max-vertical-offset="1445">
+        <state vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1445">
           <caret line="52" column="118" selection-start-line="52" selection-start-column="118" selection-end-line="52" selection-end-column="118" />
           <folding />
         </state>
@@ -929,9 +994,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RiotAPIStats/pages/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24952015" vertical-offset="686" max-vertical-offset="1836">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="686" max-vertical-offset="1836">
           <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apireader/analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9535713" vertical-offset="2690" max-vertical-offset="3604">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1429233698418" expanded="true" signature="917:1014" placeholder="SELECT ranki..champs..." />
+            <marker date="1429233698418" expanded="true" signature="3859:3917" placeholder="SELECT champ..champs..." />
+            <marker date="1429233698418" expanded="true" signature="4012:4060" placeholder="SELECT champ..champs..." />
+          </folding>
         </state>
       </provider>
     </entry>
