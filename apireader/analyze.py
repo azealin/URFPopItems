@@ -185,12 +185,12 @@ def generatetable():
 
 
 ####### MAIN
-# generatetable()
-#
-# print("Unranked: " + str(totalgames1) + " Bronze: " + str(totalgames2) + " Silver: " + str(totalgames3) +
-#         " Gold: " + str(totalgames4) + " Platinum: " + str(totalgames5) + " Diamond: " + str(totalgames6) +
-#         " Master/Challenger: " + str(totalgames7))
-# print("Total Games " + str((totalgames1+totalgames2+totalgames3+totalgames4+totalgames5+totalgames6+totalgames7)/10))
+generatetable()
+
+print("Unranked: " + str(totalgames1) + " Bronze: " + str(totalgames2) + " Silver: " + str(totalgames3) +
+        " Gold: " + str(totalgames4) + " Platinum: " + str(totalgames5) + " Diamond: " + str(totalgames6) +
+         " Master/Challenger: " + str(totalgames7))
+print("Total Games " + str((totalgames1+totalgames2+totalgames3+totalgames4+totalgames5+totalgames6+totalgames7)/10))
 print ("making table")
 champdict = lookup.maketable()
 print ("done")
